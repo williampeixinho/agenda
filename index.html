@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Agenda</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Ropa+Sans:ital@0;1&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>Agenda</h1>
+    </header>
+    <main>
+        <section>
+            <figure>
+                <img src="./image/_915f968d-afe0-4bd8-b910-76edceff7103 1.png" alt="Telefone" id="imagemtelefone">
+            </figure>
+            <form id="form-atividade">
+                <label for="nome"></label>
+                <input type="text" id="nome" required placeholder="NOME" aria-label="Nome do contato">
+                <label for="telefone"></label>
+                <input type="number" id="telefone" required placeholder="CONTATO" min="0" max="999999999999" aria-label="Número do contato">
+                
+                <input type="submit" id="botao" value="Adicionar">
+            </form>
+            <table id="tabela" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Nome Do Contato</th>
+                        <th>Número Do Contato</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    
+                </tbody>
+            </table>
+        </section>
+    </main>
+    <script src="index.js"></script>
+</body>
+</html>

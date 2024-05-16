@@ -1,0 +1,116 @@
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+-webkit-appearance: none;
+margin: 0;
+}
+
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: "Ropa Sans", sans-serif;
+    background-color: #F1D644;
+    width: 832px;
+}
+
+header h1 {
+    position: relative;
+    font-size: 110px;
+    font-weight: 100;
+    left: 134px;
+    top: 40px;
+}
+
+#imagemtelefone {
+    position: fixed;
+    top:0;
+    right:0 ;
+    width: 379px;
+    height: 1100px;
+}
+
+body h2 {
+    position: relative;
+    display: inline;
+    font-size: 50px;
+    right: -126px;
+    top: 87px;
+}
+#tel {
+
+    left: 335px;
+}
+
+
+#form-atividade {
+    position: relative;
+    left: 130px;
+    top: -20px;
+}
+
+#nome {
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    font-size: 30px;
+}
+
+#telefone  {
+    width: 300px;
+    height: 30px;
+    text-align: center;
+    font-size: 30px;
+    margin-right: 30px;
+
+}
+
+#botao {
+    height: 34px;
+    font-size: 25px;
+    width: 130px;
+}
+
+#botao:hover {
+    background-color: #F1D644;
+    color: #000;
+}
+
+
+
+table th {
+    border-bottom: 2px solid black;
+    padding: 20px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+table {
+    width: 100%;
+    margin: 20px;
+}
+
+table td {
+    padding: 16px 0;
+    text-align: center;
+    font-size: 18px;
+    border-bottom: 1px solid rgba(0,0,0, 0.1);
+}
+
+table {
+    position: relative;
+    left: 20px;
+}
+
+@media screen and (max-width: 1020px) {
+    #imagemtelefone {
+        display: none;
+
+    }
+}
+    
+
+
+    
